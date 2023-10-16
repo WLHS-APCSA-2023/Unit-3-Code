@@ -8,4 +8,7 @@ public class Bill
 		costOfMeal = totalBill;
 		totalCustomers = numCustomers;
 	}
+
+	public String toString(){
+		return "Your bill is $"+costOfMeal;
 }
