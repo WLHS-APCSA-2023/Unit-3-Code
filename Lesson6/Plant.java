@@ -82,8 +82,4 @@ public class Plant {
     public String toString() {
         return "The plant " + species + " belongs to the family " + family + ". " + species + " is " + age + " years old, has a height of " + height + " meters, and has the scientific name of " + scientificName + ".";
     }
-
-    public boolean equals(Plant obj) {
-        return (this.getFamily().equals(obj.getFamily())) && (this.getSpecies().equals(obj.getSpecies()));
-    }
 }
